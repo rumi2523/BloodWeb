@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore BloodHub's media gallery, blood donation awareness stories, and community highlights.">
+  <meta name="theme-color" content="#B91C35">
+
+  <title>Media | BloodHub</title>
+
+  <!-- Shared Home page stylesheet: keep header and footer styling consistent -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Media page styles only -->
+  <link rel="stylesheet" href="css/media.css">
+
+  <script src="js/media.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- SAME HEADER STRUCTURE AS HOME PAGE -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- Brand: replace the text logo with an SVG if desired -->
+      <a href="index.html" class="logo" aria-label="BloodHub home">
+        <span class="logo-icon" aria-hidden="true">+</span>
+        <span>Blood<span class="logo-accent">Hub</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="primary-navigation"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation"
+           aria-label="Main navigation">
+        <a class="nav-link" href="index.html" aria-current="page">Home</a>
+        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link active" href="media.html">Media</a>
+        <a class="nav-link" href="privacy-faq.html">Privacy &amp; FAQ</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="button button-primary nav-cta" href="#get-involved">
+          Get Involved
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Media hero -->
+    <section class="media-hero">
+      <div class="container media-hero-grid">
+        <div class="media-hero-content">
+          <p class="media-eyebrow">THE BLOODHUB MEDIA ROOM</p>
+          <h1>Stories that inspire <span>the gift of giving.</span></h1>
+          <p class="media-hero-description">
+            Discover the people, ideas, and moments that help spread awareness
+            about blood donation. Every story is a reminder that compassion
+            can bring communities closer together.
+          </p>
+
+          <div class="media-hero-actions">
+            <a class="media-button media-button-primary" href="#media-gallery">
+              Explore the Gallery
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a class="media-text-link" href="#featured-stories">
+              Discover our stories <span aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div class="media-hero-note">
+            <span class="media-note-icon" aria-hidden="true">♥</span>
+            <p>Raising awareness. Sharing knowledge. Encouraging generosity.</p>
+          </div>
+        </div>
+
+        <div class="media-hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1615461066841-6116e61058f4?auto=format&fit=crop&w=1100&q=85"
+            alt="Healthcare professional working with medical equipment"
+            fetchpriority="high"
+          >
+          <div class="media-image-label">
+            <span aria-hidden="true">+</span>
+            <div>
+              <strong>Every story matters</strong>
+              <p>Awareness begins with sharing.</p>
+            </div>
+          </div>
+          <span class="media-hero-decoration" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured stories -->
+    <section class="media-featured section-space" id="featured-stories">
+      <div class="container">
+        <div class="media-section-heading">
+          <div>
+            <p class="media-eyebrow">IN THE SPOTLIGHT</p>
+            <h2>Stories worth sharing.</h2>
+          </div>
+          <p>
+            Explore key ideas behind blood donation and the role that
+            informed, caring communities can play.
+          </p>
+        </div>
+
+        <div class="media-feature-grid">
+          <article class="media-feature-card media-feature-card-large">
+            <button
+              class="media-image-button"
+              type="button"
+              data-lightbox
+              data-image="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1400&q=90"
+              data-alt="Healthcare worker handling a blood sample in a laboratory"
+              aria-label="View larger image: healthcare worker handling a blood sample"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=900&q=85"
+                alt="Healthcare worker handling a blood sample in a laboratory"
+                loading="lazy"
+              >
+              <span class="media-image-open" aria-hidden="true">↗</span>
+            </button>
+            <div class="media-feature-content">
+              <span class="media-category">AWARENESS</span>
+              <h3>Understanding the importance of blood donation</h3>
+              <p>
+                Learn why maintaining awareness and encouraging eligible
+                donors are important parts of a more prepared community.
+              </p>
+              <a href="#awareness-highlights" class="media-read-link">
+                Explore the topic <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="media-feature-card">
+            <button
+              class="media-image-button"
+              type="button"
+              data-lightbox
+              data-image="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=1400&q=90"
+              data-alt="Hands coming together to represent community support"
+              aria-label="View larger image: hands representing community support"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=800&q=85"
+                alt="Hands coming together to represent community support"
+                loading="lazy"
+              >
+              <span class="media-image-open" aria-hidden="true">↗</span>
+            </button>
+            <div class="media-feature-content">
+              <span class="media-category">COMMUNITY</span>
+              <h3>Small actions, shared impact</h3>
+              <p>
+                Community awareness can help more people understand how
+                they may contribute to a culture of giving.
+              </p>
+              <a href="#media-gallery" class="media-read-link">
+                View gallery <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="media-feature-card">
+            <button
+              class="media-image-button"
+              type="button"
+              data-lightbox
+              data-image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=90"
+              data-alt="Medical professionals discussing healthcare information"
+              aria-label="View larger image: medical professionals discussing healthcare"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=85"
+                alt="Medical professionals discussing healthcare information"
+                loading="lazy"
+              >
+              <span class="media-image-open" aria-hidden="true">↗</span>
+            </button>
+            <div class="media-feature-content">
+              <span class="media-category">EDUCATION</span>
+              <h3>Knowledge helps people make informed choices</h3>
+              <p>
+                Reliable information helps prospective donors understand
+                the donation process and seek qualified guidance.
+              </p>
+              <a href="#awareness-highlights" class="media-read-link">
+                Learn more <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="media-gallery-section section-space" id="media-gallery">
+      <div class="container">
+        <div class="media-section-heading">
+          <div>
+            <p class="media-eyebrow">A CLOSER LOOK</p>
+            <h2>Moments of care and connection.</h2>
+          </div>
+          <p>
+            Browse visual highlights related to healthcare, awareness,
+            generosity, and community support.
+          </p>
+        </div>
+
+        <div class="media-filter-bar" role="group" aria-label="Filter gallery images">
+          <button class="media-filter is-selected" type="button" data-filter="all" aria-pressed="true">All Photos</button>
+          <button class="media-filter" type="button" data-filter="donation" aria-pressed="false">Donation</button>
+          <button class="media-filter" type="button" data-filter="healthcare" aria-pressed="false">Healthcare</button>
+          <button class="media-filter" type="button" data-filter="community" aria-pressed="false">Community</button>
+        </div>
+
+        <div class="media-gallery-grid">
+          <article class="media-gallery-item media-gallery-tall" data-category="donation">
+            <button
+              class="media-image-button"
+              type="button"
+              data-lightbox
+              data-image="https://images.unsplash.com/photo-1615461066841-6116e61058f4?auto=format&fit=crop&w=1400&q=90"
+              data-alt="Healthcare professional in a clinical setting"
+              aria-label="View larger image: healthcare professional in a clinical setting"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1615461066841-6116e61058f4?auto=format&fit=crop&w=800&q=85"
+                alt="Healthcare professional in a clinical setting"
+                loading="lazy"
+              >
+              <span class="media-image-open" aria-hidden="true">↗</span>
+            </button>
+            <div class="media-gallery-caption">
+              <span>DONATION</span>
+              <h3>The spirit of giving</h3>
+            </div>
+          </article>
+
+          <article class="media-gallery-item" data-category="healthcare">
+            <button
+              class="media-image-button"
+              type="button"
+              data-lightbox
+              data-image="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1400&q=90"
+              data-alt="Laboratory professional handling a blood sample"
+              aria-label="View larger image: laboratory professional handling a blood sample"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=85"
+                alt="Laboratory professional handling a blood sample"
+                loading="lazy"
+              >
+              <span class="media-image-open" aria-hidden="true">↗</span>
+            </button>
+            <div class="media-gallery-caption">
+              <span>HEALTHCARE</span>
+              <h3>Care behind the scenes</h3>
+            </div>
+          </article>
+
+          <article class="media-gallery-item" data-category="community">
+            <button
+              class="media-image-button"
+              type="button"
+              data-lightbox
+              data-image="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=1400&q=90"
+              data-alt="People joining hands in a gesture of support"
+              aria-label="View larger image: people joining hands in support"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=800&q=85"
+                alt="People joining hands in a gesture of support"
+                loading="lazy"
+              >
+              <span class="media-image-open" aria-hidden="true">↗</span>
+            </button>
+            <div class="media-gallery-caption">
+              <span>COMMUNITY</span>
+              <h3>Stronger together</h3>
+            </div>
+          </article>
+
+          <article class="media-gallery-item" data-category="healthcare">
+            <button
+              class="media-image-button"
+              type="button"
+              data-lightbox
+              data-image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=90"
+              data-alt="Healthcare professionals sharing information"
+              aria-label="View larger image: healthcare professionals sharing information"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=85"
+                alt="Healthcare professionals sharing information"
+                loading="lazy"
+              >
+              <span class="media-image-open" aria-hidden="true">↗</span>
+            </button>
+            <div class="media-gallery-caption">
+              <span>HEALTHCARE</span>
+              <h3>Knowledge and care</h3>
+            </div>
+          </article>
+
+          <article class="media-gallery-item media-gallery-wide" data-category="community">
+            <button
+              class="media-image-button"
+              type="button"
+              data-lightbox
+              data-image="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1400&q=90"
+              data-alt="Volunteers working together on a community initiative"
+              aria-label="View larger image: volunteers working on a community initiative"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1000&q=85"
+                alt="Volunteers working together on a community initiative"
+                loading="lazy"
+              >
+              <span class="media-image-open" aria-hidden="true">↗</span>
+            </button>
+            <div class="media-gallery-caption">
+              <span>COMMUNITY</span>
+              <h3>Making room for meaningful action</h3>
+            </div>
+          </article>
+
+          <article class="media-gallery-item" data-category="donation">
+            <button
+              class="media-image-button"
+              type="button"
+              data-lightbox
+              data-image="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1400&q=90"
+              data-alt="Healthcare worker in a hospital environment"
+              aria-label="View larger image: healthcare worker in a hospital"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=85"
+                alt="Healthcare worker in a hospital environment"
+                loading="lazy"
+              >
+              <span class="media-image-open" aria-hidden="true">↗</span>
+            </button>
+            <div class="media-gallery-caption">
+              <span>DONATION</span>
+              <h3>Every contribution counts</h3>
+            </div>
+          </article>
+        </div>
+
+        <p class="media-gallery-note">
+          These images are illustrative stock photos, not verified photographs
+          of BloodHub events or donors.
+        </p>
+      </div>
+    </section>
+
+    <!-- Awareness section -->
+    <section class="media-awareness section-space" id="awareness-highlights">
+      <div class="container media-awareness-grid">
+        <div class="media-awareness-content">
+          <p class="media-eyebrow">SPREAD THE WORD</p>
+          <h2>Awareness is a powerful place to start.</h2>
+          <p>
+            You do not need to be a healthcare professional to help spread
+            awareness. Sharing credible information and encouraging people
+            to consult qualified healthcare providers can help make blood
+            donation easier to understand.
+          </p>
+
+          <div class="media-awareness-points">
+            <div class="media-awareness-point">
+              <span aria-hidden="true">01</span>
+              <div>
+                <h3>Share reliable information</h3>
+                <p>Use trustworthy health resources when discussing donation.</p>
+              </div>
+            </div>
+            <div class="media-awareness-point">
+              <span aria-hidden="true">02</span>
+              <div>
+                <h3>Encourage informed decisions</h3>
+                <p>Remind prospective donors to check eligibility with qualified professionals.</p>
+              </div>
+            </div>
+            <div class="media-awareness-point">
+              <span aria-hidden="true">03</span>
+              <div>
+                <h3>Support your community</h3>
+                <p>Help others find credible local blood donation services.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="media-awareness-visual">
+          <img
+            src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1000&q=85"
+            alt="Healthcare professional ready to provide patient care"
+            loading="lazy"
+          >
+          <div class="media-awareness-quote">
+            <span aria-hidden="true">“</span>
+            <p>Sharing knowledge can be the first step towards helping someone.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media contact call to action -->
+    <section class="media-cta-section">
+      <div class="container">
+        <div class="media-cta">
+          <div class="media-cta-decoration" aria-hidden="true">+</div>
+          <div class="media-cta-copy">
+            <p class="media-eyebrow">LET'S CONNECT</p>
+            <h2>Have a story or media enquiry?</h2>
+            <p>
+              Contact BloodHub to discuss awareness initiatives, media
+              enquiries, or ideas for helping more people learn about blood
+              donation.
+            </p>
+          </div>
+          <a class="media-button media-button-light" href="contact.html">
+            Contact Us <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-main">
+
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo"
+             aria-label="BloodHub home">
+            <span class="logo-icon" aria-hidden="true">+</span>
+            <span>Blood<span class="logo-accent">Hub</span></span>
+          </a>
+          <p>
+            Connecting people through compassion and helping communities
+            understand the life-saving importance of blood donation.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="media.html">Media</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Information</h3>
+          <a href="privacy-faq.html">Privacy Policy</a>
+          <a href="privacy-faq.html#faq">Frequently Asked Questions</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Take Action</h3>
+          <a href="#get-involved">Get Involved</a>
+          <a href="contact.html">Partner with Us</a>
+          <a href="contact.html">Share Feedback</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="current-year">2026</span> BloodHub.
+          All rights reserved.
+        </p>
+        <p class="footer-disclaimer">
+          BloodHub information does not replace professional medical advice.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Accessible image viewer, opened by gallery image buttons -->
+  <dialog class="media-lightbox" id="media-lightbox" aria-label="Image viewer">
+    <div class="media-lightbox-inner">
+      <button class="media-lightbox-close" type="button" aria-label="Close image viewer">
+        &times;
+      </button>
+      <img class="media-lightbox-image" src="" alt="">
+      <p class="media-lightbox-caption"></p>
+    </div>
+  </dialog>
+</body>
+</html>

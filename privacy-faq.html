@@ -1,0 +1,696 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Read BloodHub's privacy information and answers to frequently asked questions about blood donation and the platform.">
+  <meta name="theme-color" content="#B91C35">
+
+  <title>Privacy &amp; FAQ | BloodHub</title>
+
+  <!-- Shared stylesheet for the site's header, footer, and common elements -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Page-specific stylesheet -->
+  <link rel="stylesheet" href="css/privacy-faq.css">
+
+  <script src="js/privacy-faq.js" defer></script>
+</head>
+
+<body>
+  <a class="privacy-skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Header: preserves the supplied class names and structure -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="logo" aria-label="BloodHub home">
+        <span class="logo-icon" aria-hidden="true">+</span>
+        <span>Blood<span class="logo-accent">Hub</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="primary-navigation"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation"
+           aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link" href="media.html">Media</a>
+        <a class="nav-link active" href="privacy-faq.html" aria-current="page">Privacy &amp; FAQ</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="button button-primary nav-cta" href="#get-involved">
+          Get Involved
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Page hero -->
+    <section class="pf-hero">
+      <div class="container pf-hero-grid">
+        <div class="pf-hero-content">
+          <p class="pf-eyebrow">YOUR TRUST MATTERS</p>
+          <h1>Privacy, clarity, and <span>peace of mind.</span></h1>
+          <p class="pf-hero-description">
+            We believe that information about blood donation should be easy
+            to understand, and that people should know how their information
+            may be handled when using BloodHub.
+          </p>
+
+          <div class="pf-hero-actions">
+            <a class="pf-button pf-button-primary" href="#privacy-policy">
+              Read Privacy Policy
+            </a>
+            <a class="pf-text-link" href="#faq">
+              Browse FAQs <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+
+          <div class="pf-hero-note">
+            <span aria-hidden="true" class="pf-note-icon">✓</span>
+            <p>Clear information. Responsible practices. Informed choices.</p>
+          </div>
+        </div>
+
+        <div class="pf-hero-visual" aria-hidden="true">
+          <div class="pf-privacy-illustration">
+            <div class="pf-illustration-orbit pf-orbit-one"></div>
+            <div class="pf-illustration-orbit pf-orbit-two"></div>
+
+            <div class="pf-shield">
+              <svg viewBox="0 0 120 140" fill="none">
+                <path
+                  d="M60 8L104 25V61C104 91 86 116 60 132C34 116 16 91 16 61V25L60 8Z"
+                  fill="#FBE4E7"
+                  stroke="#B91C35"
+                  stroke-width="4"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M60 37C52 26 38 33 38 45C38 60 60 75 60 75C60 75 82 60 82 45C82 33 68 26 60 37Z"
+                  fill="#B91C35"
+                />
+                <path
+                  d="M43 89L54 100L78 77"
+                  stroke="#7F172D"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+
+            <div class="pf-privacy-chip pf-chip-top">
+              <span class="pf-chip-dot"></span>
+              Respect for privacy
+            </div>
+
+            <div class="pf-privacy-chip pf-chip-bottom">
+              <span class="pf-chip-check">✓</span>
+              Informed decisions
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick navigation -->
+    <section class="pf-quick-nav" aria-label="Page sections">
+      <div class="container">
+        <div class="pf-quick-nav-inner">
+          <a href="#privacy-policy">
+            <span class="pf-quick-icon" aria-hidden="true">01</span>
+            <span>Privacy Policy</span>
+          </a>
+          <a href="#information">
+            <span class="pf-quick-icon" aria-hidden="true">02</span>
+            <span>Information Handling</span>
+          </a>
+          <a href="#faq">
+            <span class="pf-quick-icon" aria-hidden="true">03</span>
+            <span>Frequently Asked Questions</span>
+          </a>
+          <a href="#get-involved">
+            <span class="pf-quick-icon" aria-hidden="true">04</span>
+            <span>Get in Touch</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Privacy policy -->
+    <section class="pf-policy-section pf-section" id="privacy-policy">
+      <div class="container pf-policy-layout">
+        <aside class="pf-policy-sidebar">
+          <p class="pf-eyebrow">YOUR INFORMATION</p>
+          <h2>Privacy Policy</h2>
+          <p>
+            This page explains the privacy principles that should guide
+            the use of BloodHub.
+          </p>
+
+          <div class="pf-policy-meta">
+            <span class="pf-meta-icon" aria-hidden="true">i</span>
+            <p>
+              <strong>Policy status</strong>
+              <span>Starter policy — review before publication</span>
+            </p>
+          </div>
+
+          <nav class="pf-policy-nav" aria-label="Privacy policy sections">
+            <a href="#information">Information We May Handle</a>
+            <a href="#information-use">How Information May Be Used</a>
+            <a href="#information-sharing">Sharing and Disclosure</a>
+            <a href="#data-security">Data Security</a>
+            <a href="#your-choices">Your Choices and Rights</a>
+            <a href="#policy-updates">Policy Updates</a>
+          </nav>
+        </aside>
+
+        <div class="pf-policy-content">
+          <div class="pf-policy-intro">
+            <span class="pf-policy-intro-icon" aria-hidden="true">♥</span>
+            <div>
+              <h3>Privacy should be understandable.</h3>
+              <p>
+                BloodHub aims to treat personal information responsibly.
+                The specific practices that apply depend on the features
+                available in the deployed application and the information
+                users choose to provide.
+              </p>
+            </div>
+          </div>
+
+          <article class="pf-policy-block" id="information">
+            <span class="pf-section-number">01</span>
+            <h3>Information We May Handle</h3>
+            <p>
+              Depending on the features you use, BloodHub may process
+              information that you submit, such as your name, contact
+              details, account information, or information related to
+              a blood donation request.
+            </p>
+            <p>
+              The application may also process technical information
+              needed to operate and protect the service, such as basic
+              diagnostic logs. The actual categories collected should be
+              confirmed against the deployed application.
+            </p>
+            <div class="pf-info-callout">
+              <strong>Important:</strong>
+              Do not submit medical records, identity documents, or other
+              sensitive information unless the relevant feature explicitly
+              requests it and you understand how it will be handled.
+            </div>
+          </article>
+
+          <article class="pf-policy-block" id="information-use">
+            <span class="pf-section-number">02</span>
+            <h3>How Information May Be Used</h3>
+            <p>Information may be used, where applicable, to:</p>
+            <ul>
+              <li>Create and maintain user accounts.</li>
+              <li>Support blood donation requests and related communication.</li>
+              <li>Respond to questions and support requests.</li>
+              <li>Maintain service reliability, troubleshoot errors, and prevent misuse.</li>
+              <li>Meet applicable legal obligations.</li>
+            </ul>
+            <p>
+              BloodHub should only use personal information for purposes
+              that are explained to users and supported by a valid legal
+              basis where required.
+            </p>
+          </article>
+
+          <article class="pf-policy-block" id="information-sharing">
+            <span class="pf-section-number">03</span>
+            <h3>Sharing and Disclosure</h3>
+            <p>
+              Personal information should not be made public simply because
+              someone uses BloodHub. Information should only be shared when
+              necessary for a clearly explained purpose, with appropriate
+              permission or another applicable legal basis.
+            </p>
+            <p>
+              Depending on the actual deployment, service providers that
+              host the application, store data, or deliver emails may process
+              information to provide their services. BloodHub's final policy
+              should identify the providers and circumstances that genuinely
+              apply.
+            </p>
+            <p>
+              Information may also be disclosed when required by law or
+              necessary to address security incidents, subject to applicable
+              legal requirements.
+            </p>
+          </article>
+
+          <article class="pf-policy-block" id="data-security">
+            <span class="pf-section-number">04</span>
+            <h3>Data Security and Retention</h3>
+            <p>
+              Appropriate technical and organisational safeguards should be
+              used to protect information against unauthorised access,
+              alteration, disclosure, or loss.
+            </p>
+            <p>
+              No website or online storage system can guarantee absolute
+              security. Access controls, secure configuration, updates,
+              backups, and appropriate handling of credentials help reduce
+              risk.
+            </p>
+            <p>
+              Information should be retained only for as long as necessary
+              for its stated purpose, applicable legal obligations, and
+              legitimate operational needs. Actual retention periods should
+              be documented before this policy is published.
+            </p>
+          </article>
+
+          <article class="pf-policy-block" id="your-choices">
+            <span class="pf-section-number">05</span>
+            <h3>Your Choices and Rights</h3>
+            <p>
+              Depending on applicable law and the data involved, you may
+              have rights to request access to, correction of, or deletion
+              of personal information, or to object to certain processing.
+            </p>
+            <p>
+              To ask a question about information associated with your use
+              of BloodHub, contact the team through the
+              <a href="contact.html">Contact page</a>. We may need to verify
+              your identity before acting on a request.
+            </p>
+            <p>
+              Some information may need to be retained where the law permits
+              or requires it. Requests will be handled in accordance with
+              applicable legal obligations and the service's actual capabilities.
+            </p>
+          </article>
+
+          <article class="pf-policy-block" id="policy-updates">
+            <span class="pf-section-number">06</span>
+            <h3>Policy Updates</h3>
+            <p>
+              This policy may be updated when BloodHub's features, data
+              practices, service providers, or legal obligations change.
+              Material updates should be communicated through an appropriate
+              channel.
+            </p>
+            <p>
+              Before publication, add the policy's effective date, the
+              responsible organisation's legal name, and an appropriate
+              privacy contact method.
+            </p>
+          </article>
+
+          <div class="pf-policy-disclaimer">
+            <span aria-hidden="true">!</span>
+            <p>
+              <strong>Publication note:</strong> This is general starter
+              content, not a verified description of BloodHub's current
+              data processing or legal advice. Confirm every statement
+              against your application, hosting setup, third-party services,
+              and applicable privacy law before using it as your official policy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Privacy principles -->
+    <section class="pf-principles-section pf-section">
+      <div class="container">
+        <div class="pf-section-heading pf-centered">
+          <p class="pf-eyebrow">OUR COMMITMENT</p>
+          <h2>Principles that guide a responsible experience.</h2>
+          <p>
+            These are the standards BloodHub should work towards when
+            handling information and supporting its community.
+          </p>
+        </div>
+
+        <div class="pf-principles-grid">
+          <article class="pf-principle-card">
+            <span class="pf-principle-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M24 5L40 12V23C40 32 33 39 24 43C15 39 8 32 8 23V12L24 5Z"
+                  stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M17 24L22 29L32 19"
+                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Responsible handling</h3>
+            <p>
+              Personal information should be accessed only for appropriate,
+              clearly explained purposes.
+            </p>
+          </article>
+
+          <article class="pf-principle-card">
+            <span class="pf-principle-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M24 21V33M24 15V16"
+                  stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>Clear communication</h3>
+            <p>
+              Users should be able to understand what a feature does and
+              what information it requires.
+            </p>
+          </article>
+
+          <article class="pf-principle-card">
+            <span class="pf-principle-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <rect x="9" y="21" width="30" height="22" rx="4"
+                  stroke="currentColor" stroke-width="2.5"/>
+                <path d="M15 21V14C15 9 19 5 24 5C29 5 33 9 33 14V21"
+                  stroke="currentColor" stroke-width="2.5"/>
+                <circle cx="24" cy="31" r="3" fill="currentColor"/>
+              </svg>
+            </span>
+            <h3>Security awareness</h3>
+            <p>
+              Access controls and sound security practices should protect
+              accounts and stored information.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="pf-faq-section pf-section" id="faq">
+      <div class="container pf-faq-layout">
+        <div class="pf-faq-intro">
+          <p class="pf-eyebrow">NEED AN ANSWER?</p>
+          <h2>Frequently asked questions.</h2>
+          <p>
+            Find answers to common questions about BloodHub, privacy, and
+            blood donation. For medical advice or a personal eligibility
+            decision, speak with a qualified healthcare professional.
+          </p>
+
+          <div class="pf-faq-help-card">
+            <span class="pf-help-icon" aria-hidden="true">?</span>
+            <h3>Still have questions?</h3>
+            <p>Contact our team and explain what you need help with.</p>
+            <a href="contact.html" class="pf-text-link">
+              Contact BloodHub <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="pf-faq-list" data-faq-list>
+          <article class="pf-faq-item">
+            <h3>
+              <button class="pf-faq-question" type="button"
+                id="faq-question-1" aria-expanded="true"
+                aria-controls="faq-answer-1">
+                <span>What is BloodHub?</span>
+                <span class="pf-faq-toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="pf-faq-answer" id="faq-answer-1"
+              role="region" aria-labelledby="faq-question-1">
+              <div class="pf-faq-answer-inner">
+                <p>
+                  BloodHub is designed to raise awareness about blood
+                  donation and help people explore information and resources
+                  related to donors and blood requests. The features
+                  available depend on the current deployment.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pf-faq-item">
+            <h3>
+              <button class="pf-faq-question" type="button"
+                id="faq-question-2" aria-expanded="false"
+                aria-controls="faq-answer-2">
+                <span>Does BloodHub collect personal information?</span>
+                <span class="pf-faq-toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="pf-faq-answer" id="faq-answer-2"
+              role="region" aria-labelledby="faq-question-2" hidden>
+              <div class="pf-faq-answer-inner">
+                <p>
+                  The information collected depends on the features you use.
+                  For example, an account or request feature may require
+                  contact or account details. Refer to the Privacy Policy
+                  and the information presented when using each feature.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pf-faq-item">
+            <h3>
+              <button class="pf-faq-question" type="button"
+                id="faq-question-3" aria-expanded="false"
+                aria-controls="faq-answer-3">
+                <span>Will my personal information be shared publicly?</span>
+                <span class="pf-faq-toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="pf-faq-answer" id="faq-answer-3"
+              role="region" aria-labelledby="faq-question-3" hidden>
+              <div class="pf-faq-answer-inner">
+                <p>
+                  You should review the privacy information associated with
+                  the specific feature you use. BloodHub should explain when
+                  information may be visible to other users or shared with
+                  service providers. Avoid submitting unnecessary sensitive
+                  details.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pf-faq-item">
+            <h3>
+              <button class="pf-faq-question" type="button"
+                id="faq-question-4" aria-expanded="false"
+                aria-controls="faq-answer-4">
+                <span>How can I ask to access or delete my information?</span>
+                <span class="pf-faq-toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="pf-faq-answer" id="faq-answer-4"
+              role="region" aria-labelledby="faq-question-4" hidden>
+              <div class="pf-faq-answer-inner">
+                <p>
+                  Contact BloodHub through the Contact page and describe
+                  your request. Depending on the request, identity
+                  verification may be needed. Requests are subject to
+                  applicable law and the service's technical capabilities.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pf-faq-item">
+            <h3>
+              <button class="pf-faq-question" type="button"
+                id="faq-question-5" aria-expanded="false"
+                aria-controls="faq-answer-5">
+                <span>Who can donate blood?</span>
+                <span class="pf-faq-toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="pf-faq-answer" id="faq-answer-5"
+              role="region" aria-labelledby="faq-question-5" hidden>
+              <div class="pf-faq-answer-inner">
+                <p>
+                  Eligibility depends on factors such as age, health,
+                  medications, travel history, and local donation rules.
+                  A qualified donation centre or healthcare professional
+                  must assess your individual eligibility.
+                </p>
+              </div>
+            </article>
+
+          <article class="pf-faq-item">
+            <h3>
+              <button class="pf-faq-question" type="button"
+                id="faq-question-6" aria-expanded="false"
+                aria-controls="faq-answer-6">
+                <span>Is blood donation safe?</span>
+                <span class="pf-faq-toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="pf-faq-answer" id="faq-answer-6"
+              role="region" aria-labelledby="faq-question-6" hidden>
+              <div class="pf-faq-answer-inner">
+                <p>
+                  Blood donation is performed by trained personnel using
+                  appropriate procedures and sterile, single-use equipment.
+                  Donors may experience temporary effects, and individual
+                  risks vary. Ask the donation centre about preparation,
+                  eligibility, and aftercare.
+                </p>
+              </div>
+            </article>
+
+          <article class="pf-faq-item">
+            <h3>
+              <button class="pf-faq-question" type="button"
+                id="faq-question-7" aria-expanded="false"
+                aria-controls="faq-answer-7">
+                <span>Can BloodHub replace a hospital or emergency service?</span>
+                <span class="pf-faq-toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="pf-faq-answer" id="faq-answer-7"
+              role="region" aria-labelledby="faq-question-7" hidden>
+              <div class="pf-faq-answer-inner">
+                <p>
+                  No. BloodHub is not a substitute for emergency medical
+                  care, professional advice, or hospital blood services.
+                  In an emergency, contact the appropriate local emergency
+                  service or healthcare facility directly.
+                </p>
+              </div>
+            </article>
+
+          <article class="pf-faq-item">
+            <h3>
+              <button class="pf-faq-question" type="button"
+                id="faq-question-8" aria-expanded="false"
+                aria-controls="faq-answer-8">
+                <span>How can I get involved with BloodHub?</span>
+                <span class="pf-faq-toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="pf-faq-answer" id="faq-answer-8"
+              role="region" aria-labelledby="faq-question-8" hidden>
+              <div class="pf-faq-answer-inner">
+                <p>
+                  You can learn about blood donation, share reliable
+                  information, or contact BloodHub to discuss possible
+                  participation. Any actual donor registration or matching
+                  service depends on the features currently available.
+                </p>
+              </div>
+            </article>
+
+          <article class="pf-faq-item">
+            <h3>
+              <button class="pf-faq-question" type="button"
+                id="faq-question-9" aria-expanded="false"
+                aria-controls="faq-answer-9">
+                <span>What should I do if I find an error or privacy concern?</span>
+                <span class="pf-faq-toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="pf-faq-answer" id="faq-answer-9"
+              role="region" aria-labelledby="faq-question-9" hidden>
+              <div class="pf-faq-answer-inner">
+                <p>
+                  Contact BloodHub through the Contact page and describe
+                  the issue without including passwords or unnecessary
+                  sensitive information. Include enough detail for the
+                  team to understand and investigate the concern.
+                </p>
+              </div>
+            </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get involved CTA -->
+    <section class="pf-cta-section" id="get-involved">
+      <div class="container">
+        <div class="pf-cta">
+          <div class="pf-cta-copy">
+            <p class="pf-eyebrow">LET'S MAKE A DIFFERENCE</p>
+            <h2>Good information helps build a stronger community.</h2>
+            <p>
+              Have a question, feedback, or an idea for raising awareness?
+              Get in touch with BloodHub.
+            </p>
+          </div>
+          <div class="pf-cta-actions">
+            <a class="pf-button pf-button-light" href="contact.html">
+              Contact Us <span aria-hidden="true">→</span>
+            </a>
+            <a class="pf-cta-home-link" href="index.html">Back to Home</a>
+          </div>
+          <span class="pf-cta-decoration" aria-hidden="true">+</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer: preserves the supplied class names and structure -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-main">
+
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo"
+             aria-label="BloodHub home">
+            <span class="logo-icon" aria-hidden="true">+</span>
+            <span>Blood<span class="logo-accent">Hub</span></span>
+          </a>
+          <p>
+            Connecting people through compassion and helping communities
+            understand the life-saving importance of blood donation.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="media.html">Media</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Information</h3>
+          <a href="privacy-faq.html#privacy-policy">Privacy Policy</a>
+          <a href="privacy-faq.html#faq">Frequently Asked Questions</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Take Action</h3>
+          <a href="#get-involved">Get Involved</a>
+          <a href="contact.html">Partner with Us</a>
+          <a href="contact.html">Share Feedback</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="current-year">2026</span> BloodHub.
+          All rights reserved.
+        </p>
+        <p class="footer-disclaimer">
+          BloodHub information does not replace professional medical advice.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>

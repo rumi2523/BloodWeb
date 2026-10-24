@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact BloodHub for general enquiries, partnerships, feedback, and questions about blood donation awareness.">
+  <title>Contact Us | BloodHub</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <script src="js/contact.js" defer></script>
+</head>
+<body>
+
+  <!-- Shared site header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="BloodHub home">
+        <span class="logo-icon" aria-hidden="true">+</span>
+        <span>Blood<span class="logo-accent">Hub</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button"
+        aria-label="Open navigation menu" aria-controls="primary-navigation"
+        aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link" href="media.html">Media</a>
+        <a class="nav-link" href="privacy-faq.html">Privacy &amp; FAQ</a>
+        <a class="nav-link active" href="contact.html" aria-current="page">Contact</a>
+        <a class="button button-primary nav-cta" href="#get-involved">Get Involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contact hero -->
+    <section class="contact-hero">
+      <div class="container contact-hero-inner">
+        <span class="contact-eyebrow">LET'S CONNECT</span>
+        <h1>We'd Love to <span>Hear From You</span></h1>
+        <p>
+          Have a question, an idea, or an opportunity to work together?
+          Get in touch with BloodHub. Your voice can help us build
+          more informed and compassionate communities.
+        </p>
+
+        <a class="button button-primary contact-hero-button" href="#contact-form">
+          Send Us a Message
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+      <div class="contact-hero-decoration" aria-hidden="true">+</div>
+    </section>
+
+    <!-- Contact categories -->
+    <section class="contact-options section-padding">
+      <div class="container">
+        <div class="section-heading contact-section-heading">
+          <span class="contact-eyebrow">HOW CAN WE HELP?</span>
+          <h2>Let's Start a Conversation</h2>
+          <p>
+            Choose the topic that best describes your enquiry.
+            We'll use your message to understand how we can help.
+          </p>
+        </div>
+
+        <div class="contact-card-grid">
+          <article class="contact-info-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 5.5h16v13H4z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="m4.5 6 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>General Enquiries</h3>
+            <p>
+              Questions about BloodHub, our mission, or blood donation awareness?
+              Send us your enquiry.
+            </p>
+            <a href="#contact-form" data-contact-topic="General enquiry">
+              Ask a question <span aria-hidden="true">&rarr;</span>
+            </a>
+          </article>
+
+          <article class="contact-info-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M16 20v-1.5a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4V20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <circle cx="9.5" cy="7" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M17 11a3.5 3.5 0 0 0 0-7M17 14.5a4 4 0 0 1 4 4V20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Partnerships</h3>
+            <p>
+              Interested in collaborating, supporting awareness activities,
+              or working with our community?
+            </p>
+            <a href="#contact-form" data-contact-topic="Partnership opportunity">
+              Explore collaboration <span aria-hidden="true">&rarr;</span>
+            </a>
+          </article>
+
+          <article class="contact-info-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H7l-4 2v-6.5A7.5 7.5 0 1 1 20 11.5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8 11h8M8 14h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Feedback &amp; Suggestions</h3>
+            <p>
+              Share your ideas, report a website issue, or suggest ways
+              we can improve the BloodHub experience.
+            </p>
+            <a href="#contact-form" data-contact-topic="Feedback or suggestion">
+              Share feedback <span aria-hidden="true">&rarr;</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact form section -->
+    <section class="contact-form-section section-padding" id="get-involved">
+      <div class="container contact-form-layout">
+
+        <div class="contact-form-intro">
+          <span class="contact-eyebrow">GET IN TOUCH</span>
+          <h2>Tell Us What's on Your Mind</h2>
+          <p>
+            Complete the form with your details and message. Please select
+            the topic that best matches your enquiry so it is easier to
+            understand your request.
+          </p>
+
+          <div class="contact-promise">
+            <span class="contact-promise-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 3 19 6v5c0 4.5-3 7.8-7 10-4-2.2-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>
+              <h3>Respectful Communication</h3>
+              <p>
+                Please avoid including passwords, financial information,
+                or unnecessary sensitive personal details in your message.
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-promise">
+            <span class="contact-promise-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>
+              <h3>Need Medical Advice?</h3>
+              <p>
+                BloodHub is an awareness resource, not an emergency or
+                medical service. Contact a qualified healthcare professional
+                for medical advice.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card" id="contact-form">
+          <div class="contact-form-card-heading">
+            <h2>Send a Message</h2>
+            <p>Fields marked with an asterisk (*) are required.</p>
+          </div>
+
+          <form id="bloodhub-contact-form" novalidate>
+            <div class="contact-field-row">
+              <div class="contact-field">
+                <label for="contact-name">Full Name *</label>
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="name"
+                  placeholder="Enter your full name"
+                  autocomplete="name"
+                  maxlength="100"
+                  required
+                >
+                <small class="field-error" id="name-error"></small>
+              </div>
+
+              <div class="contact-field">
+                <label for="contact-email">Email Address *</label>
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  maxlength="254"
+                  required
+                >
+                <small class="field-error" id="email-error"></small>
+              </div>
+            </div>
+
+            <div class="contact-field">
+              <label for="contact-topic">Enquiry Type *</label>
+              <select id="contact-topic" name="topic" required>
+                <option value="">Select an enquiry type</option>
+                <option value="General enquiry">General enquiry</option>
+                <option value="Partnership opportunity">Partnership opportunity</option>
+                <option value="Feedback or suggestion">Feedback or suggestion</option>
+                <option value="Website issue">Website issue</option>
+                <option value="Other">Other</option>
+              </select>
+              <small class="field-error" id="topic-error"></small>
+            </div>
+
+            <div class="contact-field">
+              <label for="contact-subject">Subject *</label>
+              <input
+                type="text"
+                id="contact-subject"
+                name="subject"
+                placeholder="What is your message about?"
+                maxlength="150"
+                required
+              >
+              <small class="field-error" id="subject-error"></small>
+            </div>
+
+            <div class="contact-field">
+              <label for="contact-message">Your Message *</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="6"
+                placeholder="Write your message here..."
+                minlength="10"
+                maxlength="3000"
+                required
+              ></textarea>
+              <div class="contact-message-meta">
+                <small class="field-error" id="message-error"></small>
+                <small class="character-count" id="character-count">0 / 3000</small>
+              </div>
+            </div>
+
+            <label class="contact-consent">
+              <input type="checkbox" id="contact-consent" name="consent" required>
+              <span>
+                I have read the
+                <a href="privacy-faq.html#privacy-policy">Privacy Policy</a>
+                and agree to provide these details for my enquiry. *
+              </span>
+            </label>
+            <small class="field-error" id="consent-error"></small>
+
+            <div class="contact-form-status" id="contact-form-status"
+              role="status" aria-live="polite" hidden></div>
+
+            <button type="submit" class="button button-primary contact-submit">
+              Validate Message
+              <span aria-hidden="true">&rarr;</span>
+            </button>
+
+            <p class="contact-form-note">
+              This form currently validates your message in the browser.
+              It will not send or store your message until a backend or
+              form service is connected.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Closing call to action -->
+    <section class="contact-bottom-cta">
+      <div class="container contact-bottom-cta-inner">
+        <div>
+          <span class="contact-eyebrow">SMALL ACTIONS MATTER</span>
+          <h2>Help Build a More Informed Community</h2>
+          <p>
+            Learn about blood donation, share reliable information,
+            and help spread awareness in your community.
+          </p>
+        </div>
+        <a class="button button-light" href="about.html">
+          Discover Our Mission <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo" aria-label="BloodHub home">
+            <span class="logo-icon" aria-hidden="true">+</span>
+            <span>Blood<span class="logo-accent">Hub</span></span>
+          </a>
+          <p>
+            Connecting people through compassion and helping communities
+            understand the life-saving importance of blood donation.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="media.html">Media</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Information</h3>
+          <a href="privacy-faq.html#privacy-policy">Privacy Policy</a>
+          <a href="privacy-faq.html#faq">Frequently Asked Questions</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Take Action</h3>
+          <a href="#get-involved">Get Involved</a>
+          <a href="contact.html#contact-form">Partner with Us</a>
+          <a href="contact.html#contact-form">Share Feedback</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> BloodHub. All rights reserved.</p>
+        <p class="footer-disclaimer">
+          BloodHub information does not replace professional medical advice.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
