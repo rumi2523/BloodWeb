@@ -1,6 +1,6 @@
 
 // =========================================================
-// BLOODHUB — HOME PAGE JAVASCRIPT
+// BBlood — HOME PAGE JAVASCRIPT
 // Handles mobile navigation, keyboard interaction, and year.
 // No external libraries or dependencies.
 // =========================================================

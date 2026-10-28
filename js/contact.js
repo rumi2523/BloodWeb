@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Contact form elements.
-  const form = document.getElementById("bloodhub-contact-form");
+  const form = document.getElementById("BBlood-contact-form");
 
   if (!form) {
     return;
